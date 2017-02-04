@@ -1,0 +1,29 @@
+INSTALACIÓN GEMA GOSU EN UBUNTU 16.04
+JOSÉ SANTORCUATO
+santorcuato76@gmail.com
+CHILE 2017
+
+
+Este manual es para realizar una instalación sin errores de la gema GOSU que es para multimedia, videojuegos, sonido. El problemas es que depende de algunos  paquetes : opengl, chipmunk, rmagick entre otras, la gema se puede instalar, pero no podrás correr los ejemplos.
+
+Instalar dependencias y gemas:
+
+sudo apt-get install build-essential libsdl2-dev libsdl2-ttf-dev libpango1.0-dev \
+                     libgl1-mesa-dev libopenal-dev libsndfile-dev
+
+
+gem install opengl
+
+gem install chipmunk
+
+gem install facy
+
+sudo apt-get install libmagickwand-dev imagemagick
+
+gem install rmagick
+
+gem install gosu
+
+gem install gosu-examples
+
+gosu-examples
