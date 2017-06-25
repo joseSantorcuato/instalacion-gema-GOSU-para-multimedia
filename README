@@ -29,6 +29,28 @@ brew install sdl2
 brew install imagemagick
 //
 
+
+/* WINDOWS 7-8-10
+
+DESCARGAR IMAGEMAGICK DESDE SOURCEFORGE
+
+ImageMagick-6.9.8-10-Q8-x64-dll.exe
+
+Instalarlo en C:/ImageMagick
+
+Instalarlo con PATH y Headers C Y C++
+
+Luego
+
+
+gem install rmagick --platform=ruby -- --with-opt-dir=c:/ImageMagick
+
+*/
+
+
+
+
+
 gem install gosu
 
 gem install gosu-examples
