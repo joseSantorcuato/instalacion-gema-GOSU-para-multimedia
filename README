@@ -38,7 +38,6 @@ brew uninstall imagemagick
 
 brew tap homebrew/versions
 brew install imagemagick@6
-Then, use the path showen on above installation:
 
 PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig gem install rmagick
 
